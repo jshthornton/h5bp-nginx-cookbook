@@ -28,7 +28,7 @@ files = [
   'h5bp/location/protect-system-files.conf'
 ]
 
-file.each do |file|
+files.each do |file|
   template "/etc/nginx/#{file}" do
     source "#{file}.erb"
     owner 'root'
