@@ -34,5 +34,6 @@ files.each do |file|
     owner 'root'
     group 'root'
     mode '0755'
+    variables config: node['nginxh5bp']['conf']
   end
 end

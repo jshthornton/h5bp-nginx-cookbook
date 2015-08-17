@@ -129,10 +129,4 @@ http {
   # for the check. It is best if you enable this in a location{} block for
   # a specific directory, or on an individual server{} level.
   # gzip_static on;
-
-  # Include files in the sites-enabled folder. server{} configuration files should be
-  # placed in the sites-available folder, and then the configuration should be enabled
-  # by creating a symlink to it in the sites-available folder.
-  # See doc/sites-enabled.md for more info.
-  include sites-enabled/*;
 }
