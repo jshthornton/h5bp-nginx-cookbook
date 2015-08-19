@@ -11,5 +11,7 @@ default['nginxh5bp']['conf'] = {
 
   expire_webfonts: false,
 
-  access_control_allow_origin: '*'
+  access_control_allow_origin: '*',
+
+  log_base_path: '/var/log/nginx'
 }
