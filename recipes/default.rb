@@ -37,11 +37,3 @@ files.each do |file|
     variables config: node['nginxh5bp']['conf']
   end
 end
-
-# No default site
-template '/etc/nginx/sites-available/no-default.conf' do
-  source 'no-default.conf.erb'
-  owner 'root'
-  group 'root'
-  mode '0755'
-end
