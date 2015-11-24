@@ -3,30 +3,8 @@ DEPENDENCIES
     path: .
     metadata: true
   nginxsite
-    git: git@github.com:jshthornton/chef-nginx-site.git
-    revision: 6805cc746ff4d8a58a7918e7ce34b9168392b644
 
 GRAPH
-  apt (2.9.2)
-  bluepill (2.4.1)
-    rsyslog (~> 2.0)
-  build-essential (2.2.4)
-  nginx (2.7.6)
-    apt (~> 2.2)
-    bluepill (~> 2.3)
-    build-essential (~> 2.0)
-    ohai (~> 2.0)
-    runit (~> 1.2)
-    yum-epel (~> 0.3)
   nginxh5bp (1.1.0)
     nginxsite (>= 0.0.0)
-  nginxsite (0.1.0)
-    nginx (>= 0.0.0)
-  ohai (2.0.4)
-  packagecloud (0.1.0)
-  rsyslog (2.2.0)
-  runit (1.7.4)
-    packagecloud (>= 0.0.0)
-  yum (3.8.2)
-  yum-epel (0.6.5)
-    yum (~> 3.2)
+  nginxsite (0.0.0)
